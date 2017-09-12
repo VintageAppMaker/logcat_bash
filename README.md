@@ -108,5 +108,5 @@ main
 
 ## 실행
 
-![](/logcat_bash.gif)
+![](/logcat_script.gif)
 
