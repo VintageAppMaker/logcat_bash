@@ -5,6 +5,7 @@
  
 Android logcat을 편하게 사용하기.
 
+> adb가 path에 등록되어 있어야함. app이 실행(package 검색)되어있어야 함.
 ~~~bash
 
 #/bin/bash
@@ -12,7 +13,7 @@ Android logcat을 편하게 사용하기.
 # message를 색상별로 출력한다.
 print_msg()
 {
-    colors=("\e[1;38;42m$1\033[0m" "\e[1;32;45m$1\033[0m" "\e[1;34;48m$1\033[0m") 
+    colors=("\033[1;38;42m$1\033[0m" "\033[1;32;45m$1\033[0m" "\033[1;34;48m$1\033[0m") 
     echo -e ${colors[$2]}
 }
 
