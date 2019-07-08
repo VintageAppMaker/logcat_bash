@@ -5,7 +5,7 @@
  
 Android logcat을 편하게 사용하기.
 
-> adb가 path에 등록되어 있어야함. app이 실행(package 검색)되어있어야 함.
+> adb가 path에 등록되어 있어야함. 핸드폰이 연결되거나 에뮬레이터가 실행되어 있어야함. app이 실행(package 검색)되어 있어야함.
 ~~~bash
 
 #/bin/bash
